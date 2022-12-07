@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  height: 60vh;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.App.hide {
+  visibility: hidden;
+}

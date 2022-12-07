@@ -1,0 +1,49 @@
+.form_container{
+  margin-top: 30px;
+}
+.form_field {
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+    /* justify-content: space-evenly; */
+  }
+  
+  input[type="text"] {
+    font-size: 30px;
+    height: 26px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 2px solid burlywood;
+    width: 100%;
+  }
+  
+  .form_label {
+    font-size: 12px;
+  }
+  .form_item {
+    margin-bottom: auto;
+    flex:1;
+    flex-shrink: 0;
+  }
+  .social_signin{
+    display:block;
+    align-items:center;
+    justify-content: center;
+  }
+  .fb_btn{
+    text-align: center !important;
+    margin: 10px auto !important;
+    width:50% !important;
+    height:26px !important;
+    font-size:14px !important;
+  }
+  .submit_btn{
+    width:408px;
+    height:32px;
+    padding: 0px 8px;
+    background-color: rgb(94, 17, 7);
+    color: white;
+    margin-top: 20px;
+  }
